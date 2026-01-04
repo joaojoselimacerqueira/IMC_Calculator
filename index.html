@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Calc.IMC</title>
+</head>
+<body>
+
+  <div class="var_esqueletoGeral">
+    <h1>Calculadora IMC</h1>
+    <h2>Exercício do curso de JS - Udemy</h2>
+
+    <div class="menuPeso">
+      <p>
+        <label for="idPeso">Peso:</label>
+      </p>
+      <p>
+        <input type="text" placeholder="Valor em KG" id="idPeso" autocomplete="off">
+      </p>
+    <div class="menuAltura">
+      <p>
+        <label for="idAltura">Altura:</label>
+      </p>
+      <p>
+        <input type="text" placeholder="Valor em CM" id="idAltura" autocomplete="off">
+      </p>
+    </div>
+    <div class="botaoContar">
+      <p><input type="button" value="Calcular" id="btnCalcular"></p>
+    </div>
+
+    <div class="btnResposta">
+    <h2 id="idResposta"></h2>
+    </div>
+
+    <div id="idDIVTabela" class="classeDIVTabela">
+    <table id="idTabela" class="classeTabela">
+      <thead>
+        <tr>
+          <td class="separaMeio_tabela">
+            <strong>Classificação IMC</strong>
+          </td>
+          <td>
+            <strong>Resultado</strong>
+          </td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            resultados abaixo de 18,5
+          </td>
+          <td>
+            Abaixo do peso
+          </td>
+        </tr>
+        <tr>
+          <td>
+            resultados entre 18,6 e 24,9
+          </td>
+          <td>
+            Saudável
+          </td>
+        </tr>
+        <tr>
+          <td>resultados entre 25 e 29,9</td>
+          <td>Sobrepeso</td>
+        </tr>
+        <tr>
+          <td>resultados entre 30 e 34,9</td>
+          <td>Obesidade 01</td>
+        </tr>
+        <tr>
+          <td>resultados entre 35 e 39,9</td>
+          <td>Obesidade 02</td>
+        </tr>
+        <tr>
+          <td>resultados maiores do que 40</td>
+          <td>Obesidade 03</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+  </div>
+
+  <script src="assets/js/main.js"></script>
+  
+</body>
+</html>
