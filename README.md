@@ -1,6 +1,8 @@
 # IMC_Calculator
 Site hosted on Github: https://joaojoselimacerqueira.github.io/IMC_Calculator/
+
 General: Study project, training how to do a IMC calculator, with interactions.
+
 Technologies: CSS, HTML, JS.
 
 My experience: 
