@@ -52,7 +52,6 @@ btnCalc.addEventListener ("click", () => {
             varResposta.innerText = `O seu IMC é ${imcCalcular_Fixed}, (Sobrepeso)`;
             varResposta.parentElement.style.backgroundColor = "rgba(255, 0, 0, 0.5)"; 
             tabela.style.display = "block"; 
-            varCresceTela.style.height = "570px";
         }
 
         else if (imcCalcular >=30 && imcCalcular <34.9){
@@ -67,7 +66,6 @@ btnCalc.addEventListener ("click", () => {
             varResposta.innerText = `O seu IMC é ${imcCalcular_Fixed}, (Obesidade grau 2)`;  
             varResposta.parentElement.style.backgroundColor = "rgba(255, 0, 0, 0.5)"; 
             tabela.style.display = "block"; 
-            varCresceTela.style.height = "570px";
         }
 
         else if (imcCalcular >=40){
@@ -102,3 +100,4 @@ btnCalc.addEventListener ("click", () => {
 
 
     });
+
