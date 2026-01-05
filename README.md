@@ -2,7 +2,9 @@
 Site hosted on Github: https://joaojoselimacerqueira.github.io/IMC_Calculator/
 
 English version.
+
 General: Study project, training how to do a IMC calculator, with interactions.
+
 Technologies: CSS, HTML, JS.
 
 My experience: 
@@ -17,7 +19,9 @@ Learn:
 3. I could learn more about how to make a responsive code.
 
 Versão PT-BR.
+
 Geral: Projeto de estudo, treinando como desenvolver uma calculadora de IMC com interações.
+
 Tecnologias: CSS, HTML, JS.
 
 Minha Experiência:
