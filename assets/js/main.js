@@ -38,7 +38,6 @@ btnCalc.addEventListener ("click", () => {
             varResposta.innerText = `O seu IMC é ${imcCalcular_Fixed}, (Abaixo do peso)`;
             varResposta.parentElement.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
             tabela.style.display = "block";
-            varCresceTela.style.height = "570px";
         }
 
         else if (imcCalcular >=18.5 && imcCalcular < 24.9){
@@ -46,7 +45,6 @@ btnCalc.addEventListener ("click", () => {
             varResposta.innerText = `O seu IMC é ${imcCalcular_Fixed}, (Saudável)`;
             varResposta.parentElement.style.backgroundColor = "rgba(0, 255, 0, 0.54)"; 
             tabela.style.display = "block";
-            varCresceTela.style.height = "570px";
         }
 
         else if (imcCalcular >=25 && imcCalcular < 29.9){
@@ -62,7 +60,6 @@ btnCalc.addEventListener ("click", () => {
             varResposta.innerText = `O seu IMC é ${imcCalcular_Fixed}, (Obesidade grau 1)`;
             varResposta.parentElement.style.backgroundColor = "rgba(255, 0, 0, 0.5)"; 
             tabela.style.display = "block"; 
-            varCresceTela.style.height = "570px";
         }
 
         else if (imcCalcular >=35 && imcCalcular < 39.9){
@@ -78,7 +75,6 @@ btnCalc.addEventListener ("click", () => {
             varResposta.innerText = `O seu IMC é ${imcCalcular_Fixed}, (Obesidade grau 3)`;
             varResposta.parentElement.style.backgroundColor = "rgba(255, 0, 0, 0.5)"; 
             tabela.style.display = "block"; 
-            varCresceTela.style.height = "570px";
         };
 
         //Pintar resultado na tela.
@@ -103,5 +99,6 @@ btnCalc.addEventListener ("click", () => {
         varRespostaerro3.innerText = "Valores impossíveis, tente novamente!";
         varRespostaerro3.parentElement.style.backgroundColor = "rgba(255, 255, 0, 0.5)"; 
     }
+
 
     });
